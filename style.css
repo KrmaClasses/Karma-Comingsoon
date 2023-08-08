@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+}
+
+.twitter-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tweet {
+    padding: 10px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.tweet-header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: bold;
+    color: #1da1f2;
+}
+
+.timestamp {
+    color: #8899a6;
+}
+
+.tweet-content {
+    margin-top: 10px;
+}
+
+.tweet-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .twitter-container {
+        max-width: 90%;
+    }
+}
